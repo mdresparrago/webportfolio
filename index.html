@@ -31,12 +31,10 @@
 
     <!-- bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-
-    <link rel="icon" type="image/x-icon" href="./images/logo.ico" >
+  
     
     <title> My Portfolio</title>
-
+    <link rel="icon" type="image/x-icon" href="https://github.com/mdresparrago/webportfolio/blob/master/images/logo.png?raw=true" >
 
   </head>
 
@@ -186,19 +184,19 @@
     </div>
 
 <!-- Contact -->
-    <div class="container-md py-md-5" id="contact">
+    <section class="container-md py-md-5" id="contact">
         <div class="row">
             <!-- <div class="col-md-4"><img class="d-flex mx-auto h-auto w-auto py-5 align-items-center" src="images/blueshadow.jpg" alt="Contact us"></div> -->
             <div class="col-md-12 p-md-auto m-md-auto mt-5">
                 <h1 class="contact-title pt-md-5">CONTACT US</h1>
                 <p class="d-flex contact-description my-md-5 justify-content-center">Ready to collaborate? </p>
-                <form>
+                <form id="contact-form">
                     <div class="form-group my-md-4 text-secondary">
-                        <label for="name">Name</label><input type="text" class="form-control" value="Maria Danica
+                        <label for="name">Name</label><input type="text" class="form-control" id="name" name="name" value="Maria Danica
                         ">
                     </div>
                     <div class="form-group my-md-3 text-secondary">
-                        <label for="email">Email Address</label><input type="email" class="form-control " value="danicaesparrago@mail.com">
+                        <label for="email">Email Address</label><input type="email" class="form-control" id="email" name="email" value="danicaesparrago@mail.com">
                     </div>
                     <div class="form-group my-md-3 text-secondary">
                         <label for="message">message</label><textarea class="form-control message-area" name="message" id="message"></textarea>
@@ -209,7 +207,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 <footer class="text-center p-md-3 mt-md-4">
     <h4 class="footer-text">2025 | All rights reserved.</h4>
 </footer>
